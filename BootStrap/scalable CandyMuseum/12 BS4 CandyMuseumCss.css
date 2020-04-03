@@ -1,0 +1,141 @@
+body {
+    background: #feceff;
+    /* #f5d9d5 color used in project */
+    font-family: 'Vidaloka', serif;
+}
+
+#mainNav {
+    font-size: 1.5rem;
+    /* font weight doesnt work b/c font type only has regular 400 weight */
+    font-weight: 100;
+}
+
+/* NESTED  */
+#mainNav .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+
+}
+
+#mainNav .nav-link {
+    color: white;
+}
+
+/* HOVER color */
+#mainNav .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#headingGrp span {
+    color: #ea1c2c;
+}
+
+#headingGrp h1 {
+    /* font weight doesnt work b/c font type only has regular 400 weight */
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+/* navbar background color when scrolling. create class in CsS and use in java */
+.navbar.scrolled {
+    background: rgb(234, 122, 255,0.8);
+}
+
+/* Used for responsive style sheet. Make adjustments based on sizes */
+@media (max-width: 1400px) {
+    #headingGrp h1 {
+       
+        font-size: 2rem;
+    }
+}
+
+/* used to invert the icon color */
+.iconLolli {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.txtBx h2 {
+    color: #ea1c2c;
+    font-size: 2.4rem;
+}
+
+.txtBx p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #f86397;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.contentRow {
+    margin-top: 100px;
+}
+
+
+
+/* for my initial page */
+/* body {
+    background: #feceff;
+    font-family: 'Vidaloka', serif;
+}
+h1 {
+    color: white;
+}
+
+.slash {
+    color: #f9004a;
+}
+
+
+
+.lolli {
+    color: white;
+}
+
+/* Using the EXCEPT feature  Didnt use */
+/* img:not(.iconLolli) {
+    max-width: 105%;
+    max-height: 100%;
+} */
+
+/* INVERTING color of an image */
+/* .iconLolli {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.pText {
+    color: #eb6894;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#drink {
+   object-fit: cover;
+    overflow: hidden;
+}
+
+.boxHead {
+    color: #f9004a;
+}
+
+#candyDessert {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    
+}
+
+#lastPic {
+    height: 400px;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+} */ 

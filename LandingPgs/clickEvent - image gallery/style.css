@@ -1,0 +1,91 @@
+.menuButton {
+    /* make menu button (top and bottom) transparent */
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    /* text color  */
+    color: rgb(229, 232, 238);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.3em;
+    margin-left: 3%;
+}
+
+#logo {
+    font-size: 2em;
+}
+
+div {
+    background-color:rgb(42, 49, 63) ;
+    color: rgb(229, 232, 238);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    background-color: rgb(229, 232, 238);
+}
+
+#pgContent {
+    background-color: rgb(229, 232, 238);
+    margin-left: 3%;
+}
+
+h1 {
+    color: rgb(16, 19, 24);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#controlButtons {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-top: 15px;
+}
+
+#crIcon {
+    /* reduce copyright icon size b/c it's too big  */
+    font-size: 12px;
+}
+
+#logoIcon   {
+    font-size: 26px;
+}
+
+#bottomName {
+    /* so I can see what I'm working with  */
+    /* border: 2px solid red; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(175, 180, 190);
+    
+}
+
+
+#bottomInfo { 
+    /* this is the bottom buttons */
+    /* so I can see what I'm working with  */
+    /* border: 2px solid red; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    
+}
+
+
+img {
+    /* resize image proportionally */
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#copyright {
+    margin-top: 20px;
+}

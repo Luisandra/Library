@@ -1,0 +1,16 @@
+.jumbotron {
+	margin-top: 13%;
+}
+
+/*Right Links*/
+.right-side {
+	float: right;
+}
+
+.bg-custom {
+	background-color: #081935;
+}
+
+.nav-link {
+	color: white;
+}

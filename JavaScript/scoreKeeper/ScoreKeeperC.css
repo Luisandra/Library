@@ -1,0 +1,11 @@
+body {
+    background: #fffbf0;
+}
+
+.winner {
+    color: #1bb657;
+}
+
+.loser {
+    color: #d40505;
+}

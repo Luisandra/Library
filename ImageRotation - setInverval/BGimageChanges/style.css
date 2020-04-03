@@ -1,0 +1,18 @@
+/* The background image should rotate every 3 seconds.
+The text should be 54px.
+The text should have a width of 900px. */
+
+p {
+    font-size: 54px;
+    width: 900px;
+    text-align: center;
+    margin: 25%;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+body{
+    /* set the background img first b/c during the first itiration in JS bg img will remain white */
+    background-image: url('Images/background3.jpg');
+}

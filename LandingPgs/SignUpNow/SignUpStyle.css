@@ -1,0 +1,60 @@
+* {
+    /* keeps child element from spill over parent - use width the adjust */
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    /* will make background take up full container  */
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    /* this will have img cover background   */
+    background-image: url('SignUpImg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#register {
+    /* will fix position to top left  */
+    position: fixed;
+    background-color: white;
+    width: 400px;
+    margin: 40px;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+input[type=email], input[type=password]{
+    padding: 15px;
+    margin: 15px 0 30px 0;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+button {
+    padding: 16px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgb(235, 0, 0);
+    width: 100%;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    color: rgb(56, 1, 56);
+    background-color: rgb(238, 56, 0);
+
+    /* makes the color change not so abrupt  */
+    transition: 0.5s;
+}
+
+

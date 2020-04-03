@@ -1,0 +1,42 @@
+td {
+	
+	height: 100px;
+	width: 100px;
+}
+
+.centerC {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.centerR {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table {
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	margin-bottom: 1px;
+}
+
+input {
+	height: 100px;
+	width: 100px;
+	border: none;
+	font-size: 75px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	margin: 1px;
+}
+
+#rules {
+	margin-bottom: 1em;
+}

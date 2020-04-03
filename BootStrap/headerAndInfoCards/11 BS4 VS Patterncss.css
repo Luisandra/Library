@@ -1,0 +1,31 @@
+.jumbotron  {
+    background: url(black-brick-wall.jpg);
+    background-position: center;
+     no-repeat
+}
+
+.display-4 {
+    add text shadow to header
+}
+
+.bg-custom {
+    background: #112d29;
+}
+
+
+ .rImg {
+     max-Height: 25%;
+     overflow: hidden;
+     max-width: 100%;
+ }
+ .cImg {
+    max-Height: 25%;
+    overflow: hidden;
+    max-width: 100%;
+    /* text-align: center; */
+}
+.lImg {
+    max-Height: 25%;
+    overflow: hidden;
+    max-width: 100%;
+}

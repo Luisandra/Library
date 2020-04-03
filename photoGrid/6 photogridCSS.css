@@ -1,0 +1,44 @@
+img {
+	/*want 3 imgs per line, now will adj w/ screen size*/
+	width: 30%;
+/*float left is used so images will no longer 
+have any white space, and will line up next to 
+one another instead of stack on top*/
+	float: left;
+	/*each pic has margin on each side - imgs are 30% 
+	leaving 10% for margins. 2 margins per pic
+	10/3=1.66% margin*/
+	margin: 1.66%;
+}
+
+
+h1 {
+	/*added to remove spc between lines of text*/
+	margin-bottom: 0;
+	/*used google fonts*/
+	font-family: raleway;
+	/*used to align text w/ images*/
+	margin-left: 1.66%;
+	/*can use b/c specific weight selected w/googlefonts*/
+	font-weight: 900;
+	/*used to manipulate text*/
+	text-transform: uppercase;
+	/*bottom border*/
+	border-bottom: 3px solid red;
+	/*lenght of bottom border*/
+	width: 50%;
+}
+
+p {
+	/*added to reduce spacing between both lines of text*/
+	margin-top: 0px;
+	font-size: 10px;
+	font-style: italic;
+	/*used google fonts*/
+	font-family: raleway;
+	/*used to align text w/ pics*/
+	margin-left: 1.66%;
+	/*used to give some space between text and line (border)*/
+	padding-top: 10px;
+
+}

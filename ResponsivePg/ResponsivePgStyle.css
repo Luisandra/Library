@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    width: 100vw;
+    height:100vh;
+    margin:0;
+    color: #FFCD44;
+   }
+  
+  nav {
+    height: 15vh;
+    background:#61AD95;
+   }
+  
+      /* All div which are children of the nav  */
+   /* without > means ALL div inside nav */
+  nav > div {
+    background: #29335C;
+    width: 7em;
+    max-width: 30vw;
+    float: right;
+    /* used to have all buttons on a single line not different block level  */
+    display:inline;
+    text-align:center;
+       /* font size and line height only way to change size of inline element */
+    line-height: 10vh;
+    font-size: 2em;
+    font-family: sans-serif;
+    margin: 1vh 1vw;
+  }
+  
+  article {
+    width: 60vw;
+    height: 60vh;
+    display: inline-block;
+    background-color: #FFCD44;
+    margin: 1vw;
+  }
+  
+  aside {
+    height: 60vh;
+    width: 34vw;
+    background: #83B5D1;
+    display: inline-block;
+    margin: 1vw 1vh;
+    float: right;
+   }
+  
+  footer {
+    height: 15vh;
+    background: #61AD95;
+  }
+  
+
+  @media all and (max-width: 768px){
+      article {
+          width: 100vw;
+          margin: 0;
+      }
+
+      aside {
+          width: 100vw;
+          margin: 0;
+      }
+      nav > div {
+          width: 30vw;
+      }
+  }
+
+  @media all and (max-width: 375px){
+    article {
+        width: 100vw;
+        margin: 0;
+    }
+
+    aside {
+        width: 100vw;
+        margin: 0;
+    }
+    nav > div {
+        width: 80vw;
+        float: none;
+        display:block;
+        margin: 2vh auto;
+        padding: 0 25vw;
+    }
+
+    nav {
+        height: 40vh;
+        margin-top: 0;
+        display: inline-block;
+        width: 100vw;
+    }
+}

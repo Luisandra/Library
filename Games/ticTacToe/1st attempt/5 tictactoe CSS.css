@@ -1,0 +1,35 @@
+td {
+	/*border: 1px solid black;*/
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;	
+}
+
+input {
+	border: none;
+	width: 100px;
+	height: 100px;
+	font-size: 75px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+#middle {
+	border: 1px solid black;
+}
+
+.midCol {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.midRow {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
