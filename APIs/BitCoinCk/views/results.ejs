@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<div id="content">
+    
+    <form action="/results">
+        <%- include('partials/selection') %>
+
+        <button>Get Price</button>
+        <h1>This is the current price:</h1>
+        <h1 id="price">
+            <%- bitData.symbol %>
+            <%= (bitData.rate_float).toFixed(2) %>
+                       
+        </h1>
+        
+    </form>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(133, 204, 252);
+
+}
+
+#content {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+button {
+    margin-top: 10px;
+    padding: 20px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blue;
+    width: 50%;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: rgb(225, 228, 255) solid 1.5px;
+}
+
+#credit {
+    text-align: center;
+}
