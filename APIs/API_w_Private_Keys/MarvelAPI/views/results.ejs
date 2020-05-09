@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+        <h1>Results</h1>
+
+        <% data.forEach((el)=>{ %>
+                <h3><%= el.name %> </h3>
+                <% let url = `${el.thumbnail.path}/portrait_uncanny.${el.thumbnail.extension}` %>
+                <img src=<%= url %> alt="">
+        <% }) %>
+<%- include('partials/footer') %>

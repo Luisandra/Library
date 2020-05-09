@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// bdyPrser takes info and turns it into an object which can be sent 
+// bdyPrser takes info and turns it into an object which can be sent through the body - required for POST request
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended:  true}));
 
@@ -18,6 +18,7 @@ app.get("/", (req, res)=>{
 
 //created this route after /friends route
 app.post("/addfriend", (req, res)=>{
+//Post request    
     //can only use req.body when bodyparser is installed
     let newFriend = req.body.newFriend;
     friends.push(newFriend);

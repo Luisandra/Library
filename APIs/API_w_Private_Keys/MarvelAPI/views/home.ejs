@@ -1,0 +1,14 @@
+<%- include ('partials/header')%>
+
+        <h1>Choose your character: </h1>
+        <!-- //GET will send data through URL
+        //POST would be to send data through body -->
+        <form action="/search" method="GET">
+            <!-- //Action is to sent data to a specific route (route handler) -->
+            <label for="char"></label>
+                <!-- //Name attribute in input field is for pull data in backend - find it by "name" -->
+            <input type="text" name="chName" id="char">
+            <button>SUBMIT</button>
+        </form>
+        
+<%- include ('partials/footer')%>

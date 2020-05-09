@@ -1,0 +1,30 @@
+body {
+    background: #c98986;
+    font-weight: bold; 
+}
+
+h1 {
+    color: #000c51;
+    text-shadow: 1px 1px 3px #f9f5f5;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #853935;
+}
+
+.container {
+    margin: 25px auto;
+}
+
+#resultsBox {
+    height: 34em;
+    overflow: scroll;
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 10px auto;
+}
+
+a {
+    color: black;
+}
